@@ -1,0 +1,15 @@
+<view class='top'>
+  <view class='aisum'><text>00</text></view>
+  <view class='playgame'><button>开始游戏</button></view>
+  <view class='cnsum'><text>00</text></view>
+</view>
+
+<view class='main'>
+
+</view>
+
+<view class='change'>
+    <button>石头</button>
+    <button>剪刀</button>
+    <button>步</button>
+</view>

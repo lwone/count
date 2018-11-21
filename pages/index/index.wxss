@@ -1,0 +1,29 @@
+.top{
+  width: 100%;
+  height: 60px;
+}
+.top view{
+  width:33.3%;
+  display: inline-block;
+  text-align: center;
+}
+
+.main{
+  height: 520px;
+  border: solid 5px;
+  margin: 5%;
+}
+.change{
+  
+}
+.change button{
+    width: 30%;
+    display: inline-block; 
+    margin: 0 1.5%;
+}
+.aisum{
+  font-size: 32px
+}
+.cnsum{
+  font-size: 32px
+}
