@@ -1,15 +1,24 @@
+<view class='body'>
 <view class='top'>
   <view class='aisum'><text>00</text></view>
-  <view class='playgame'><button>开始游戏</button></view>
+  <view class='playgame' bindtap='isplay'><button>{{playtext}}</button></view>
   <view class='cnsum'><text>00</text></view>
 </view>
-
+<view class='ts'><text>{{msg}}</text></view>
 <view class='main'>
-
+      <view class='ai'>
+        <image src='../img/2.png'></image>
+        <text>AI</text>
+      </view>
+      <view class='cn'>
+        <image src='../img/{{cn}}.png'></image>
+        <text>你</text>
+      </view>
 </view>
 
 <view class='change'>
-    <button>石头</button>
-    <button>剪刀</button>
-    <button>步</button>
+    <button bindtap='st'>石头</button>
+    <button bindtap='jd'>剪刀</button>
+    <button bindtap='bu'>步</button>
+</view>
 </view>

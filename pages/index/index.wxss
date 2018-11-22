@@ -1,6 +1,9 @@
+
+
 .top{
   width: 100%;
   height: 60px;
+ 
 }
 .top view{
   width:33.3%;
@@ -12,6 +15,8 @@
   height: 520px;
   border: solid 5px;
   margin: 5%;
+  overflow: hidden;
+  background-color: #d3d2d2;
 }
 .change{
   
@@ -26,4 +31,22 @@
 }
 .cnsum{
   font-size: 32px
+}
+.ai{
+  height: 265px;
+  border-bottom: solid 5px;
+  overflow: hidden;
+}
+.cn{
+  height: 265px;
+  overflow: hidden;
+}
+.ai image{
+  transform:rotate(225deg);
+}
+.cn image{
+  transform:rotate(45deg);
+}
+.ts{
+  text-align: center
 }
