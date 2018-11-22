@@ -21,4 +21,5 @@
     <button bindtap='jd'>剪刀</button>
     <button bindtap='bu'>步</button>
 </view>
+123
 </view>
